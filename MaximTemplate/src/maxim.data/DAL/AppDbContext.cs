@@ -17,5 +17,6 @@ namespace maxim.data.DAL
         }
         public DbSet<Feature> Features { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
+        public DbSet<Setting> Settings { get; set; }
     }
 }

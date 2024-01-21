@@ -1,6 +1,10 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@inject LayoutService service;
+@{
+	var setting = await service.GetSettings();
+}
 @model List<Feature>
 
 <!-- spacer section -->

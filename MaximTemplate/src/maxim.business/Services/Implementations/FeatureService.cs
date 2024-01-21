@@ -66,9 +66,9 @@ namespace maxim.business.Services.Implementations
             return await _featureRepository.GetAllAsync().ToListAsync();
         }
 
-        public  async Task<Feature> GetByIdAsync(int id)
+        public   Task<Feature> GetByIdAsync(int id)
         {
-            var feature=await _featureRepository.GetByidAsync(x=>x.Id==id);
+            var feature= _featureRepository.GetByidAsync(x=>x.Id==id);
             if(feature is null)
             {
                 throw new FeatureNotFoundException();

@@ -4,6 +4,7 @@ using maxim.core.Models;
 using maxim.core.Repositories.Interfaces;
 using maxim.data.DAL;
 using maxim.data.Repositories.Implementations;
+using maxim.MVC.ViewServices;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,7 +14,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IFeatureRepository,FeatureRepository>();
+builder.Services.AddScoped<ISettingRepository, SettingRepository>();
+builder.Services.AddScoped<ISettingService, SettingService>();
+builder.Services.AddScoped<LayoutService>();
 builder.Services.AddScoped<IFeatureService,FeatureService>();
+
 
 builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 {

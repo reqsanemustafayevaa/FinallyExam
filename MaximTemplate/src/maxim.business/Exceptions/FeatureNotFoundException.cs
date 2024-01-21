@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace maxim.business.Exceptions
 {
-    public class FeatureNotFoundException:Exception
-    {
-        public string PropertyName { get; set; }
-        public FeatureNotFoundException()
-        {
+	public class FeatureNotFoundException:Exception
+	{
+		public string PropertyName { get; set; }
+		public FeatureNotFoundException()
+		{
 
-        }
-        public FeatureNotFoundException(string? message):base(message) 
-        {
+		}
+		public FeatureNotFoundException(string? message) : base(message)
+		{
 
-        }
-        public FeatureNotFoundException(string propertyname,string? message):base(message)
-        {
-            PropertyName = propertyname;
+		}
+		public FeatureNotFoundException(string propertyname, string? message) : base(message)
+		{
+			PropertyName = propertyname;
 
-        }
-    }
+		}
+	}
 }

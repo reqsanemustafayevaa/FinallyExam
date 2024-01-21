@@ -7717,6 +7717,18 @@
       "PackagePath": "staticwebassets\\tweet\\index.php"
     },
     {
+      "Id": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\wwwroot\\uploads\\features\\a5dab1de-8336-4897-ac0f-9fe5eabbf407img4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\features\\a5dab1de-8336-4897-ac0f-9fe5eabbf407img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\wwwroot\\uploads\\features\\bada1d24-510d-4e1c-9812-3cb97c76d88bimg1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\features\\bada1d24-510d-4e1c-9812-3cb97c76d88bimg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\wwwroot\\uploads\\features\\bffca414-0818-4c62-a4a3-69c2b54207a1camera.png",
+      "PackagePath": "staticwebassets\\uploads\\features\\bffca414-0818-4c62-a4a3-69c2b54207a1camera.png"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.maxim.MVC.props",
       "PackagePath": "build\\maxim.MVC.props"
     },

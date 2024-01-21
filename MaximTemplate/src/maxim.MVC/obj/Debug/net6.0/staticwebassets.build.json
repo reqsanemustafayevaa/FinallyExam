@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qNYk6JvkNwRfmIbGYmdXUzFocQuXItF0lB6+gMBc7l0=",
+  "Hash": "QSC+C+BHIFwP0OPJAzjsYqS9YMZwnyducvAQcN1HuzE=",
   "Source": "maxim.MVC",
   "BasePath": "_content/maxim.MVC",
   "Mode": "Default",
@@ -32825,6 +32825,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\tweet\\index.php"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\wwwroot\\uploads\\features\\a5dab1de-8336-4897-ac0f-9fe5eabbf407img4.jpg",
+      "SourceId": "maxim.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\wwwroot\\",
+      "BasePath": "_content/maxim.MVC",
+      "RelativePath": "uploads/features/a5dab1de-8336-4897-ac0f-9fe5eabbf407img4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\features\\a5dab1de-8336-4897-ac0f-9fe5eabbf407img4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\wwwroot\\uploads\\features\\bada1d24-510d-4e1c-9812-3cb97c76d88bimg1.jpg",
+      "SourceId": "maxim.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\wwwroot\\",
+      "BasePath": "_content/maxim.MVC",
+      "RelativePath": "uploads/features/bada1d24-510d-4e1c-9812-3cb97c76d88bimg1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\features\\bada1d24-510d-4e1c-9812-3cb97c76d88bimg1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\wwwroot\\uploads\\features\\bffca414-0818-4c62-a4a3-69c2b54207a1camera.png",
+      "SourceId": "maxim.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\wwwroot\\",
+      "BasePath": "_content/maxim.MVC",
+      "RelativePath": "uploads/features/bffca414-0818-4c62-a4a3-69c2b54207a1camera.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\features\\bffca414-0818-4c62-a4a3-69c2b54207a1camera.png"
     }
   ]
 }
