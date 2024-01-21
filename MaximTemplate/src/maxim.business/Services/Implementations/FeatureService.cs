@@ -49,14 +49,15 @@ namespace maxim.business.Services.Implementations
             await _featureRepository.CommitAsync();
         }
 
-        public async Task Delete(Feature feature)
+        public async Task Delete(int id)
         {
-            var existfeature = _featureRepository.GetByidAsync(x => x.Id == feature.Id);
+            var existfeature =await _featureRepository.GetByidAsync(x => x.Id == id);
             if (existfeature is null)
             {
                 throw new FeatureNotFoundException();
             }
-            _featureRepository.Delete(feature);
+            Helper.DeleteFile(_env.WebRootPath, "uploads/features", existfeature.ImageUrl);
+            _featureRepository.Delete(existfeature);
             await _featureRepository.CommitAsync();
         }
 
@@ -65,23 +66,20 @@ namespace maxim.business.Services.Implementations
             return await _featureRepository.GetAllAsync().ToListAsync();
         }
 
-        public async Task<Feature> GetByIdAsync(int id)
+        public  async Task<Feature> GetByIdAsync(int id)
         {
             var feature=await _featureRepository.GetByidAsync(x=>x.Id==id);
             if(feature is null)
             {
                 throw new FeatureNotFoundException();
             }
-            Helper.DeleteFile(_env.WebRootPath, "uploads/features", feature.ImageUrl);
+            
             return feature;
         }
 
         public async Task UpdateAsync(Feature feature)
         {
-            if(feature==null)
-            {
-                throw new FeatureNotFoundException();
-            }
+            
             var existfeature =await _featureRepository.GetByidAsync(x => x.Id == feature.Id);
             if (feature is null)
             {

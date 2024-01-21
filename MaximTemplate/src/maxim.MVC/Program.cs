@@ -1,10 +1,17 @@
+using maxim.business.Services.Implementations;
+using maxim.business.Services.Interfaces;
+using maxim.core.Repositories.Interfaces;
 using maxim.data.DAL;
+using maxim.data.Repositories.Implementations;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IFeatureRepository,FeatureRepository>();
+builder.Services.AddScoped<IFeatureService,FeatureService>();
+
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
     opt.UseSqlServer("server=DESKTOP-FJ28S1F;database=MaximTemplate;Trusted_Connection=True;");
@@ -26,6 +33,10 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.MapControllerRoute(
+			name: "areas",
+			pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+		  );
 
 app.MapControllerRoute(
     name: "default",

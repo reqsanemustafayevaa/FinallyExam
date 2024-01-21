@@ -11,7 +11,7 @@ namespace maxim.business.Services.Interfaces
     {
         Task CreateAsync(Feature feature);
         Task UpdateAsync(Feature feature);
-        Task Delete(Feature feature);
+        Task Delete(int id);
         Task<List<Feature>> GetAllAsync();
         Task<Feature> GetByIdAsync(int id);
        
