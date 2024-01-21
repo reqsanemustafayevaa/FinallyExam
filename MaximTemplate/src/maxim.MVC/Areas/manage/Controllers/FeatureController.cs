@@ -1,11 +1,14 @@
 ﻿using maxim.business.Exceptions;
 using maxim.business.Services.Interfaces;
 using maxim.core.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace maxim.MVC.Areas.manage.Controllers
 {
 	[Area("manage")]
+	[Authorize(Roles = "SuperAdmin")]
 	public class FeatureController : Controller
 	{
 		private readonly IFeatureService _featureService;

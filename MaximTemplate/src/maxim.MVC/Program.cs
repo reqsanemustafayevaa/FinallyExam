@@ -1,17 +1,27 @@
 using maxim.business.Services.Implementations;
 using maxim.business.Services.Interfaces;
+using maxim.core.Models;
 using maxim.core.Repositories.Interfaces;
 using maxim.data.DAL;
 using maxim.data.Repositories.Implementations;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IFeatureRepository,FeatureRepository>();
 builder.Services.AddScoped<IFeatureService,FeatureService>();
 
+builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+{
+    opt.Password.RequiredLength = 8;
+    opt.Password.RequireDigit = true;
+    opt.Password.RequireLowercase = true;
+    opt.Password.RequireUppercase = true;
+}).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
     opt.UseSqlServer("server=DESKTOP-FJ28S1F;database=MaximTemplate;Trusted_Connection=True;");
@@ -31,7 +41,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllerRoute(
 			name: "areas",
