@@ -1,0 +1,17 @@
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\bin\Debug\net6.0\maxim.data.deps.json
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\bin\Debug\net6.0\maxim.data.dll
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\bin\Debug\net6.0\maxim.data.pdb
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\bin\Debug\net6.0\maxim.core.dll
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\bin\Debug\net6.0\maxim.core.pdb
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\obj\Debug\net6.0\maxim.data.csproj.AssemblyReference.cache
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\obj\Debug\net6.0\maxim.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\obj\Debug\net6.0\maxim.data.AssemblyInfoInputs.cache
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\obj\Debug\net6.0\maxim.data.AssemblyInfo.cs
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\obj\Debug\net6.0\maxim.data.csproj.CoreCompileInputs.cache
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\obj\Debug\net6.0\maxim.data.csproj.CopyComplete
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\obj\Debug\net6.0\maxim.data.dll
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\obj\Debug\net6.0\refint\maxim.data.dll
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\obj\Debug\net6.0\maxim.data.pdb
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\obj\Debug\net6.0\ref\maxim.data.dll
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\bin\Debug\net6.0\maxim.data.runtimeconfig.json
+C:\Users\II novbe\Desktop\FinallyExam\MaximTemplate\src\maxim.data\obj\Debug\net6.0\maxim.data.genruntimeconfig.cache

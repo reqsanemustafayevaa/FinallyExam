@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "BG+dzDfb88AshI5FeBsDt/cc7+GxwLU8ZAcE6ev3/jg=",
+  "Source": "maxim.MVC",
+  "BasePath": "_content/maxim.MVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "maxim.MVC\\wwwroot",
+      "Source": "maxim.MVC",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\wwwroot\\",
+      "BasePath": "_content/maxim.MVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\maxim.MVC.styles.css",
+      "SourceId": "maxim.MVC",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/maxim.MVC",
+      "RelativePath": "maxim.MVC.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\maxim.MVC.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\maxim.MVC.bundle.scp.css",
+      "SourceId": "maxim.MVC",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/maxim.MVC",
+      "RelativePath": "maxim.MVC.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\II novbe\\Desktop\\FinallyExam\\MaximTemplate\\src\\maxim.MVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\maxim.MVC.bundle.scp.css"
+    }
+  ]
+}
